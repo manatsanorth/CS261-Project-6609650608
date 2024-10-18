@@ -1,0 +1,127 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #FFFAF0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #f4ecec;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #B22222;
+  font-weight: 700;
+}
+
+label {
+  display: block;
+  margin: 12px 0 5px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ebe6e6;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #B22222;
+}
+
+button {
+  background-color: #B22222;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #B22222;
+}
+
+#additional-info {
+  margin-top: 20px;
+  color: #696969;
+  text-align: center;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+#additional-info div {
+  margin: 5px 0;
+}
+
+#login-results {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  margin: 20px auto;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#login-results div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 1px solid #eaeaea;
+}
+
+#login-results div:last-child {
+  border-bottom: none;
+}
+
+.label {
+  font-weight: bold;
+  width: 120px;
+}
+
+#login-results span {
+  flex: 1;
+  text-align: right;
+}
+
+
+#loginInfo p {
+  margin: 5px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#loginInfo {
+  background-color: #fffaeb;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+}
